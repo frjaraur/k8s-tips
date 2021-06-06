@@ -1,8 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: "2021-06-06T09:52:28Z"
-  generation: 1
   labels:
     app: nettools
   name: nettools

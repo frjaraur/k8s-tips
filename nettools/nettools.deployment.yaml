@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nettools
+    purpose: debugging
   name: nettools
 spec:
   progressDeadlineSeconds: 600
